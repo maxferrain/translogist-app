@@ -1,0 +1,29 @@
+@import '../../styles/constants';
+
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 60px;
+  margin: 0 150px;
+
+
+  img {
+    height: 30px;
+  }
+
+  .navbar {
+    Button {
+      font-weight: $font-weight-bold;
+      color: $text-color-comment;
+    }
+
+    .phoneButton {
+      font-weight: $font-weight-bold;
+      margin-left: 16px;
+      background: $main-blue;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+@import '../../styles/constants';
+
+.mainBg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //background: #B8E6FF;
+
+  .mainImg {
+    margin-left: 20px;
+    img {
+      height: 680px;
+    }
+
+  }
+
+  .mainText {
+    margin-left: 150px;
+    //width: 660px;
+
+    h1 {
+      font-size: 50px;
+      font-family: 'Unbounded', cursive;
+    }
+
+    p {
+      //background: #B8E6FF;
+      margin: 20px 0 60px;
+      font-size: 20px;
+      color: $text-color-add-comment;
+    }
+
+    .mainButtons {
+      Button {
+        width: 160px;
+      }
+
+      Button:first-child {
+        margin-right: 16px;
+        background: $main-blue;
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .mainImg {
+    img {
+      width: 680px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .mainImg {
+    img {
+      //width: 480px;
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .mainImg {
+    img {
+      //width: 380px;
+      display: none;
+    }
+  }
+}
