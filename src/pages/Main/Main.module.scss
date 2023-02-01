@@ -4,10 +4,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: calc(100% - 20px);
+  padding-top: 50px;
   //background: #B8E6FF;
 
   .mainImg {
     margin-left: 20px;
+    overflow: hidden;
     img {
       height: 680px;
     }
@@ -31,13 +34,13 @@
     }
 
     .mainButtons {
-      Button {
+      a {
         width: 160px;
       }
 
-      Button:first-child {
+      a:first-child {
         margin-right: 16px;
-        background: $main-blue;
+        //background: $main-blue;
       }
     }
   }

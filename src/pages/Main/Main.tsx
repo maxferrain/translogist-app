@@ -15,9 +15,8 @@ const Main = () => {
                     железнодорожными и интермодальными сервисами</p>
 
                 <div className={mainButtons}>
-                <Button type="primary" size='large'>Оставить заявку</Button>
-
-                <Button size='large'>Рассчитать</Button>
+                    <Button href="#contactUs" type="primary" size="large">Оставить заявку</Button>
+                    <Button href="#calculate" size="large">Рассчитать</Button>
                 </div>
             </div>
 

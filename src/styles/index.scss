@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-html {
-  overflow: hidden;
-}
-
 html,
 body {
   height: 100%;
@@ -24,9 +20,6 @@ body {
 }
 
 .container {
-  padding-right: 46px;
-
-  .taskScrollbar::-webkit-scrollbar-track {
-    margin: 46px 0;
-  }
+  margin: 0 auto;
+  width: 1200px;
 }
