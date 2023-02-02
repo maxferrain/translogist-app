@@ -1,0 +1,77 @@
+@import '../../styles/constants';
+
+.footer {
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 80px 0 20px;
+
+  p {
+    color: $text-color-add-comment;
+    margin-top: 40px;
+  }
+
+  .divider {
+    background: $color-gray-multiselect-bg;
+  }
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+
+
+    .logoImg {
+      height: 30px;
+    }
+
+    svg {
+      height: 20px;
+      width: 50px;
+    }
+  }
+
+  .mainHeaderInfo {
+    display: flex;
+    justify-content: space-between;
+
+    .address {
+      max-width: 250px;
+
+      h4 {
+        font-size: $font-size-large;
+        font-weight: $font-weight-bold;
+      }
+
+      p {
+        margin: 24px 0;
+        color: $text-color-add-comment;
+      }
+
+      .showMap {
+        display: flex;
+        gap: 12px;
+
+        svg {
+          height: 20px;
+          width: 20px;
+        }
+      }
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+
+      a {
+        color: $text-color-gray;
+        & :hover {
+          color: $text-color-add-comment;
+        }
+      }
+
+
+    }
+  }
+}
