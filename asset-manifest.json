@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/translogist-app/static/css/main.3ea7d8ff.css",
-    "main.js": "/translogist-app/static/js/main.8bba161a.js",
+    "main.css": "/translogist-app/static/css/main.c01063c5.css",
+    "main.js": "/translogist-app/static/js/main.05c9b6a3.js",
     "static/js/787.96be73d3.chunk.js": "/translogist-app/static/js/787.96be73d3.chunk.js",
     "static/media/cars.png": "/translogist-app/static/media/cars.ace65c48773e7676b1b3.png",
     "static/media/translogo.png": "/translogist-app/static/media/translogo.f990456d5ed77c891c07.png",
@@ -75,12 +75,12 @@
     "static/media/NeueHaasDisplay-Black.woff2": "/translogist-app/static/media/NeueHaasDisplay-Black.4b72aaeffe71a3f5cd8e.woff2",
     "static/media/NeueHaasDisplay-Roman.woff2": "/translogist-app/static/media/NeueHaasDisplay-Roman.a965aad874955a1dea7a.woff2",
     "index.html": "/translogist-app/index.html",
-    "main.3ea7d8ff.css.map": "/translogist-app/static/css/main.3ea7d8ff.css.map",
-    "main.8bba161a.js.map": "/translogist-app/static/js/main.8bba161a.js.map",
+    "main.c01063c5.css.map": "/translogist-app/static/css/main.c01063c5.css.map",
+    "main.05c9b6a3.js.map": "/translogist-app/static/js/main.05c9b6a3.js.map",
     "787.96be73d3.chunk.js.map": "/translogist-app/static/js/787.96be73d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ea7d8ff.css",
-    "static/js/main.8bba161a.js"
+    "static/css/main.c01063c5.css",
+    "static/js/main.05c9b6a3.js"
   ]
 }
