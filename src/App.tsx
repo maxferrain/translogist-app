@@ -6,6 +6,7 @@ import ContactUs from './pages/ContactUs/ContactUs'
 import WhyUs from './pages/WhyUs/WhyUs'
 import { FloatButton } from 'antd'
 import Footer from './components/Footer/Footer'
+import Reviews from './components/Reviews/Reviews'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Header/>
             <Main/>
             <WhyUs/>
+            <Reviews/>
             <ContactUs/>
             <FloatButton.BackTop />
 

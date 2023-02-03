@@ -23,3 +23,9 @@ body {
   margin: 0 auto;
   width: 1200px;
 }
+
+.react-multi-carousel-dot--active {
+  button {
+    background: #0383ff!important;
+  }
+}

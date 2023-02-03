@@ -1,0 +1,52 @@
+@import '../../../styles/constants';
+
+.review {
+  border: 1px solid #efefef;
+  height: 180px;
+  margin: 30px 30px 50px;
+  padding: 25px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Raleway', sans-serif;
+
+
+  .personInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .personInfoName {
+      display: flex;
+      justify-content: space-between;
+
+      h4 {
+        color: #414258;
+        font-size: 1.316rem;
+        margin-bottom: 1.316rem;
+        line-height: 1.31;
+      }
+
+      svg {
+        fill: #f8bc1c;
+        height: 10px;
+      }
+    }
+
+    h5 {
+      font-size: .789rem;
+      color: #707070;
+      font-weight: $font-weight-normal;
+    }
+
+    p {
+      color: #707070;
+      text-align: left;
+      font-weight: 400;
+      line-height: 1.63;
+      font-size: 1rem;
+    }
+  }
+}
