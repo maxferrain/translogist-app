@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/translogist-app/static/css/main.c01063c5.css",
-    "main.js": "/translogist-app/static/js/main.05c9b6a3.js",
+    "main.css": "/translogist-app/static/css/main.a7936e91.css",
+    "main.js": "/translogist-app/static/js/main.456ade72.js",
     "static/js/787.96be73d3.chunk.js": "/translogist-app/static/js/787.96be73d3.chunk.js",
     "static/media/cars.png": "/translogist-app/static/media/cars.ace65c48773e7676b1b3.png",
     "static/media/translogo.png": "/translogist-app/static/media/translogo.f990456d5ed77c891c07.png",
@@ -74,13 +74,16 @@
     "static/media/NeueHaasDisplay-Thin.woff2": "/translogist-app/static/media/NeueHaasDisplay-Thin.e66f4814c2632be1f760.woff2",
     "static/media/NeueHaasDisplay-Black.woff2": "/translogist-app/static/media/NeueHaasDisplay-Black.4b72aaeffe71a3f5cd8e.woff2",
     "static/media/NeueHaasDisplay-Roman.woff2": "/translogist-app/static/media/NeueHaasDisplay-Roman.a965aad874955a1dea7a.woff2",
+    "static/media/revicons.eot": "/translogist-app/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/translogist-app/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/translogist-app/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/translogist-app/index.html",
-    "main.c01063c5.css.map": "/translogist-app/static/css/main.c01063c5.css.map",
-    "main.05c9b6a3.js.map": "/translogist-app/static/js/main.05c9b6a3.js.map",
+    "main.a7936e91.css.map": "/translogist-app/static/css/main.a7936e91.css.map",
+    "main.456ade72.js.map": "/translogist-app/static/js/main.456ade72.js.map",
     "787.96be73d3.chunk.js.map": "/translogist-app/static/js/787.96be73d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c01063c5.css",
-    "static/js/main.05c9b6a3.js"
+    "static/css/main.a7936e91.css",
+    "static/js/main.456ade72.js"
   ]
 }
