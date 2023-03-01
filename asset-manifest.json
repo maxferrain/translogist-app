@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/translogist-app/static/css/main.c213f254.css",
-    "main.js": "/translogist-app/static/js/main.78ec76f3.js",
+    "main.css": "/translogist-app/static/css/main.8ce23801.css",
+    "main.js": "/translogist-app/static/js/main.87ce9ee7.js",
     "static/js/787.96be73d3.chunk.js": "/translogist-app/static/js/787.96be73d3.chunk.js",
     "static/media/cars.png": "/translogist-app/static/media/cars.ace65c48773e7676b1b3.png",
     "static/media/translogo.png": "/translogist-app/static/media/translogo.f990456d5ed77c891c07.png",
+    "static/media/cont2.png": "/translogist-app/static/media/cont2.e6180a9c775f8bd8010a.png",
+    "static/media/cont6.png": "/translogist-app/static/media/cont6.eac8131169f92f65d653.png",
+    "static/media/cont4.png": "/translogist-app/static/media/cont4.85450224262d6eaa1638.png",
     "static/media/NeueHaasDisplay-MediumItalic.eot": "/translogist-app/static/media/NeueHaasDisplay-MediumItalic.e9176861aef8fe44a5e3.eot",
     "static/media/NeueHaasDisplay-BoldItalic.eot": "/translogist-app/static/media/NeueHaasDisplay-BoldItalic.cc92f598a64038a07b47.eot",
     "static/media/NeueHaasDisplay-MediumItalic.ttf": "/translogist-app/static/media/NeueHaasDisplay-MediumItalic.e5cc5aa11f7b5407f565.ttf",
@@ -22,6 +25,7 @@
     "static/media/NeueHaasDisplay-BlackItalic.ttf": "/translogist-app/static/media/NeueHaasDisplay-BlackItalic.24f8d095cae865e90e27.ttf",
     "static/media/NeueHaasDisplay-RomanItalic.ttf": "/translogist-app/static/media/NeueHaasDisplay-RomanItalic.b386fc5e0aafc933d83c.ttf",
     "static/media/computer.png": "/translogist-app/static/media/computer.1563452457df9d4cc39b.png",
+    "static/media/cont7.png": "/translogist-app/static/media/cont7.f19446151e34bbfeee62.png",
     "static/media/NeueHaasDisplay-Bold.eot": "/translogist-app/static/media/NeueHaasDisplay-Bold.d6374be8c572d98f9f72.eot",
     "static/media/NeueHaasDisplay-Mediu.eot": "/translogist-app/static/media/NeueHaasDisplay-Mediu.6720ffe2a1988e25d3e3.eot",
     "static/media/NeueHaasDisplay-Light.eot": "/translogist-app/static/media/NeueHaasDisplay-Light.2d54896eec19d605e5c5.eot",
@@ -39,8 +43,11 @@
     "static/media/NeueHaasDisplay-Roman.ttf": "/translogist-app/static/media/NeueHaasDisplay-Roman.a4c6f6d97398d8f9a96c.ttf",
     "static/media/NeueHaasDisplay-Black.ttf": "/translogist-app/static/media/NeueHaasDisplay-Black.23d846a281c75daeff53.ttf",
     "static/media/sales.png": "/translogist-app/static/media/sales.cb963bf217eef34b2637.png",
+    "static/media/cont3.png": "/translogist-app/static/media/cont3.48aefde159fef6931882.png",
     "static/media/truck.png": "/translogist-app/static/media/truck.09d244e31ad1a978a844.png",
     "static/media/backgroundCars.png": "/translogist-app/static/media/backgroundCars.b92449b0f567ea2f2d29.png",
+    "static/media/cont1.png": "/translogist-app/static/media/cont1.a8cfd9181cd66d2383ba.png",
+    "static/media/cont5.png": "/translogist-app/static/media/cont5.6d92fa9e957a15899e96.png",
     "static/media/earphones.png": "/translogist-app/static/media/earphones.66e2ba1fb46eb139ab7d.png",
     "static/media/NeueHaasDisplay-BoldItalic.woff": "/translogist-app/static/media/NeueHaasDisplay-BoldItalic.6715a56f01cc7897e05e.woff",
     "static/media/NeueHaasDisplay-XThinItalic.woff": "/translogist-app/static/media/NeueHaasDisplay-XThinItalic.0e68a0c1113cae5d9700.woff",
@@ -78,12 +85,12 @@
     "static/media/revicons.ttf": "/translogist-app/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/translogist-app/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/translogist-app/index.html",
-    "main.c213f254.css.map": "/translogist-app/static/css/main.c213f254.css.map",
-    "main.78ec76f3.js.map": "/translogist-app/static/js/main.78ec76f3.js.map",
+    "main.8ce23801.css.map": "/translogist-app/static/css/main.8ce23801.css.map",
+    "main.87ce9ee7.js.map": "/translogist-app/static/js/main.87ce9ee7.js.map",
     "787.96be73d3.chunk.js.map": "/translogist-app/static/js/787.96be73d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c213f254.css",
-    "static/js/main.78ec76f3.js"
+    "static/css/main.8ce23801.css",
+    "static/js/main.87ce9ee7.js"
   ]
 }
