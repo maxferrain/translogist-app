@@ -1,0 +1,51 @@
+@import '../../../styles/constants';
+
+.container {
+  width: 350px;
+  height: 160px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 0 0 rgba(0,0,0,0.1);
+
+  transition: all 0.5s;
+
+  padding: 18px;
+  display: flex;
+
+  &:hover {
+    transition: all 0.9s;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  }
+
+  .imageContainer {
+    img {
+      width: 130px;
+    }
+  }
+
+  .infoContainer {
+    margin-left: 18px;
+    font-family: 'Raleway', sans-serif;
+    h4 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 16px;
+      //margin-bottom: 30px;
+    }
+
+    .parameters {
+      display: flex;
+      flex-direction: column;
+      width: 130px;
+      margin-top: 20px;
+
+      div{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 6px;
+      }
+    }
+  }
+}

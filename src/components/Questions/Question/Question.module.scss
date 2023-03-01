@@ -1,0 +1,57 @@
+@import '../../../styles/constants';
+
+.questionBlock {
+
+  padding: 25px 0 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  width: 800px;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+
+  p {
+    font-size: 16px;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+    line-height: 1.6rem;
+    font-weight: 500;
+  }
+
+  .faqQuestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 14px;
+    word-break: break-word;
+    transition: margin 0.3s ease;
+    cursor: pointer;
+
+    h3 {
+      font-size: 20px;
+    }
+
+    .questionIcon {
+      display: flex;
+      flex: 0 0 auto;
+      justify-content: center;
+      align-items: center;
+      width: 36px;
+      height: 36px;
+      margin-left: 20px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      box-shadow: 0 2px 32px 6px rgba(36, 36, 36, 0.07);
+      transition-property: transform, color, background-color;
+      transition-duration: 0.3s;
+      transition-timing-function: ease;
+    }
+
+    .questionIcon:hover {
+      color: #ffffff;
+      background-color: #161616;
+    }
+
+    .questionIconOpen {
+      transform: rotate(-45deg);
+    }
+  }
+}
