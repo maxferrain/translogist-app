@@ -11,7 +11,7 @@ body {
   height: 100%;
   margin: 0;
   background: $blue-background;
-  font-family: $font-family;
+  font-family: 'Raleway', $font-family;
   color: $text-color-gray;
   font-size: $font-size-15;
   font-weight: $font-weight-normal;
@@ -93,4 +93,61 @@ body {
 
 .ant-form-item-explain-error {
   color: #ca0101 !important;
+}
+
+
+.education {
+  --bg-color: #ffd861;
+  --bg-color-light: #ffeeba;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 215, 97, 0.48);
+}
+
+.credentialing {
+  --bg-color: #B8F9D3;
+  --bg-color-light: #e2fced;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(184, 249, 211, 0.48);
+}
+
+.wallet {
+  --bg-color: #CEB2FC;
+  --bg-color-light: #F0E7FF;
+  --text-color-hover: #fff;
+  --box-shadow-color: rgba(206, 178, 252, 0.48);
+}
+
+.human-resources {
+  --bg-color: #DCE9FF;
+  --bg-color-light: #f1f7ff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(220, 233, 255, 0.48);
+}
+
+.expedition {
+  --bg-color: #dfdfdf;
+  --bg-color-light: #f8f8f8;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(206, 178, 252, 0.48);
+}
+
+.docs {
+  --bg-color: #67c7c4;
+  --bg-color-light: #93f3f0;
+  --text-color-hover: #fff;
+  --box-shadow-color: rgba(206, 178, 252, 0.48);
+}
+
+.packaging {
+  --bg-color: #ff7696;
+  --bg-color-light: #ffb9ca;
+  --text-color-hover: #fff;
+  --box-shadow-color: rgba(255, 118, 150, 0.61);
+}
+
+.manager {
+  --bg-color: #cab26e;
+  --bg-color-light: #e3c579;
+  --text-color-hover: #fff;
+  --box-shadow-color: rgba(206, 178, 252, 0.48);
 }

@@ -10,6 +10,7 @@ import Reviews from './components/Reviews/Reviews'
 import Questions from './components/Questions/Questions'
 import Containers from './components/Containers/Containers'
 import Services from './components/Services/Services'
+import Features from './components/Features/Features'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Header/>
             <Main/>
             <WhyUs/>
+            <Features/>
             <Services/>
             <Containers/>
             <Questions/>
