@@ -1,0 +1,17 @@
+@import '../../styles/constants';
+
+.questionsBlock {
+  padding: 70px 0;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 70px;
+  }
+}

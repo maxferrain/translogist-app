@@ -1,0 +1,45 @@
+@import '../../../styles/constants';
+
+.modalField {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+}
+
+
+.modalWindow {
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+  //left: 1/4wh;
+  left: 25%;
+  right: 25%;
+  top: 13%;
+  padding: 64px 84px;
+  box-sizing: border-box;
+  z-index: 1000;
+
+  background: #F5F5F5;
+  border-radius: $border-radius-biggest;
+
+  .closeModalImg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 31px;
+    cursor: pointer;
+  }
+
+  label {
+    font-family: 'Unbounded', cursive;
+    font-size: 30px;
+    font-weight: $font-weight-semi-bold;
+    display: block;
+    margin-bottom: 14px;
+    margin-left: 7px;
+  }
+}

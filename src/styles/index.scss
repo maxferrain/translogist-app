@@ -29,3 +29,68 @@ body {
     background: #0383ff!important;
   }
 }
+
+
+.card {
+  width: 600px;
+  height: 400px;
+}
+
+.card-container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+.antInput {
+  padding: 4px 11px;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.PhoneInput {
+  width: 200px;
+  height: 31px;
+  .PhoneInputInput {
+    border: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    transition: all 0.2s;
+
+    &::placeholder {
+      color: #bcbcbc;
+    }
+
+    &:active {
+      border: none;
+    }
+  }
+}
+
+.link {
+  color: #004eb0;
+  cursor: pointer;
+
+  &:hover {
+    color: #001462;
+  }
+}
+
+.ant-form-item {
+  height: 30px;
+}
+
+.ant-form-item-explain-error {
+  color: #ca0101 !important;
+}

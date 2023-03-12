@@ -95,13 +95,5 @@ export const containersData = [
         length: '13,720',
         width: '2,438',
         height: '2,896'
-    },
-    {
-        id: 11,
-        name: '45 ft. Height cube',
-        image: cont4,
-        length: '13,720',
-        width: '2,294',
-        height: '2,896'
     }
 ]

@@ -1,0 +1,74 @@
+@import '../../styles/constants';
+
+
+  .contactsFormTitle {
+    font-family: 'Unbounded', cursive;
+    font-size: 35px;
+    margin-bottom: 16px;
+  }
+
+  .contactsForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .companyName {
+      width: 100vh;
+    }
+
+    .messageArea {
+      width: 100vh;
+      height: 100px;
+      resize: none;
+    }
+
+    .submitButton {
+      width: 200px;
+      font-size: 16px;
+      font-weight: bold;
+      height: 50px;
+      position: absolute;
+      bottom: 25px;
+    }
+
+    .agreement {
+      margin-top: 60px;
+    }
+
+    Input {
+      width: 200px;
+    }
+
+    & .citySelector {
+      width: 200px;
+    }
+
+    TextArea {
+      width: 410px;
+    }
+  }
+
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  25% {
+    background-position: 25% 75%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  75% {
+    background-position: 25% 75%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

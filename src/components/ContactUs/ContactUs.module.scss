@@ -1,0 +1,60 @@
+@import '../../styles/constants';
+
+.contactsBlock {
+  margin: 50px auto;
+  width: 1200px;
+  height: 490px;
+
+  background: linear-gradient(-45deg,
+          #099bff,
+          #c2deff,
+          #71b1ff,
+          #d3d8ff,
+          #7294d8,
+          #bed2ff,
+          #8591fb);
+  animation: gradient 30s ease infinite;
+  background-size: 500% 500%;
+
+
+  padding: 24px;
+  border-radius: 18px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  overflow: hidden;
+  position: relative;
+
+
+  .imgBlock {
+    position: absolute;
+
+    content: '';
+    display: block;
+  }
+  .truckImg {
+    width: 500px;
+  }
+
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  25% {
+    background-position: 25% 75%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  75% {
+    background-position: 25% 75%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

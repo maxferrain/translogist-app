@@ -1,14 +1,15 @@
 import React from 'react'
 import './App.css'
 import Header from './components/Header/Header'
-import Main from './pages/Main/Main'
-import ContactUs from './pages/ContactUs/ContactUs'
-import WhyUs from './pages/WhyUs/WhyUs'
-import { FloatButton } from 'antd'
+import Main from './components/Main/Main'
+import ContactUs from './components/ContactUs/ContactUs'
+import WhyUs from './components/WhyUs/WhyUs'
+import {FloatButton} from 'antd'
 import Footer from './components/Footer/Footer'
 import Reviews from './components/Reviews/Reviews'
 import Questions from './components/Questions/Questions'
 import Containers from './components/Containers/Containers'
+import Services from './components/Services/Services'
 
 
 function App() {
@@ -17,11 +18,12 @@ function App() {
             <Header/>
             <Main/>
             <WhyUs/>
+            <Services/>
             <Containers/>
             <Questions/>
             <Reviews/>
             <ContactUs/>
-            <FloatButton.BackTop />
+            <FloatButton.BackTop/>
 
             <Footer/>
         </>)

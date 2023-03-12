@@ -1,6 +1,6 @@
 import styles from './Questions.module.scss'
 import React from 'react'
-import {questionsData} from './quesrionsData'
+import {questionsData} from '../../infoData/questionsData'
 import Question from './Question/Question'
 
 const {questionsBlock, title} = styles
