@@ -9,10 +9,7 @@ const Questions = () => {
         <div className='container'>
             <div className={questionsBlock}>
                 <h2 className={title}>Вопросы и ответы</h2>
-
-                {
-                    questionsData.map(({id, question, answer}) => <Question key={id} question={question} answer={answer}/>)
-                }
+                {questionsData.map(({id, question, answer}) => <Question key={id} question={question} answer={answer}/>)}
             </div>
         </div>
     )

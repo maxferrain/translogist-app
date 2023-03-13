@@ -20,8 +20,8 @@ function App() {
             <Main/>
             <WhyUs/>
             <Features/>
-            <Services/>
             <Containers/>
+            <Services/>
             <Questions/>
             <Reviews/>
             <ContactUs/>

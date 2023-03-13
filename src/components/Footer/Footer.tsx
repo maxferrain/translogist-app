@@ -29,10 +29,10 @@ const Footer = () => {
                         <h4>Адрес</h4>
                         <p>121248, г.Москва, Кутузовский проспект д. 2</p>
 
-                        <div className={showMap}>
+                        <a className={showMap} href='https://yandex.ru/maps/-/CCUOQXgDcB'>
                             <CompassOutlined/>
                             <h4>Открыть на карте</h4>
-                        </div>
+                        </a>
                     </div>
 
                     <div className={menu}>

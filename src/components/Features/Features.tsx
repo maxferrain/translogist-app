@@ -8,7 +8,7 @@ const Features = () => {
     return (
         <div className='container'>
             <div className={questionsBlock}>
-                <h2 className={title}>Всю работу возьмем на себя</h2>
+                <h2 className={title}>Всю работу возьмем <span>на себя</span></h2>
 
                 <div>
                     {featuresData.map(({name, description, id, icon, styleClass}: IFeaturePropsType) =>

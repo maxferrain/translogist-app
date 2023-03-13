@@ -28,7 +28,7 @@ const WhyUs = () => {
             <div className={cn('container', containerWhyUs)}>
                 <div className={description}>
                     <h3>Почему мы?</h3>
-                    <p>Translogistics предлагает услугу автодоставки «от двери до двери».
+                    <p><b>Translogistics</b> предлагает услугу автодоставки «от двери до двери». <br/><br/>
                         Мы доставим груз от склада клиента до станции/порта отправления и от станции/порта прибытия до
                         склада получателя в России.</p>
                 </div>
@@ -47,7 +47,7 @@ const WhyUs = () => {
                             cardText="Отслеживайте маршруты онлайн и будьте в курсе перемещений транспорта"
                         />
                     </div>
-                    <Divider type="vertical"  orientation="center" style={{height: '100%', margin: '50px'}}></Divider>
+                    <Divider type="vertical"  orientation="center" style={{height: '100%', margin: '30px'}}></Divider>
                     <div>
                         <ReasonCard
                             image={sales}

@@ -18,7 +18,7 @@
 
   .mainText {
     margin-left: 150px;
-    //width: 660px;
+    width: 660px;
 
     h1 {
       font-size: 50px;
@@ -26,10 +26,10 @@
     }
 
     p {
-      //background: #B8E6FF;
       margin: 20px 0 60px;
       font-size: 20px;
       color: $text-color-add-comment;
+      font-weight: 600;
     }
 
     .mainButtons {
