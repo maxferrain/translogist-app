@@ -95,6 +95,9 @@ body {
   color: #ca0101 !important;
 }
 
+.ant-anchor:before, .ant-anchor-wrapper-horizontal:before {
+  display: none;
+}
 
 .education {
   --bg-color: #ffd861;

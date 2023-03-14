@@ -6,7 +6,7 @@ import {featuresData, IFeaturePropsType} from '../../infoData/featuresData'
 const {questionsBlock, title} = styles
 const Features = () => {
     return (
-        <div className='container'>
+        <div className='container' id="features">
             <div className={questionsBlock}>
                 <h2 className={title}>Всю работу возьмем <span>на себя</span></h2>
 

@@ -4,15 +4,13 @@ import React from 'react'
 import {Button, Divider} from 'antd'
 import {CompassOutlined, InstagramOutlined, MailOutlined, SkypeOutlined, WhatsAppOutlined} from '@ant-design/icons'
 
-const {footer, logoImg, divider, head, mainHeaderInfo, address, showMap, menu} = styles
+const {footer, logoImg, divider, head, mainHeaderInfo, address, showMap, menu, contacts} = styles
 const Footer = () => {
     return (
         <div className={footer}>
             <div className="container">
                 <div className={head}>
-                    <a href="/">
-                        <img src={logo} className={logoImg} alt="TRANSLOGISTICS"/>
-                    </a>
+                    <a href="/"><img src={logo} className={logoImg} alt="TRANSLOGISTICS"/></a>
 
                     <div>
                         <WhatsAppOutlined/>
@@ -27,9 +25,9 @@ const Footer = () => {
                 <div className={mainHeaderInfo}>
                     <div className={address}>
                         <h4>Адрес</h4>
-                        <p>121248, г.Москва, Кутузовский проспект д. 2</p>
+                        <p>121248, г.Москва, Кутузовский пр-т, д. 2</p>
 
-                        <a className={showMap} href='https://yandex.ru/maps/-/CCUOQXgDcB'>
+                        <a className={showMap} target='_blank' type="text" href='https://yandex.ru/maps/-/CCUOQXgDcB'>
                             <CompassOutlined/>
                             <h4>Открыть на карте</h4>
                         </a>
@@ -37,26 +35,31 @@ const Footer = () => {
 
                     <div className={menu}>
                         <Button href="/" type="link">Главная</Button>
-                        <Button href="#auto" type="link">Автомобили</Button>
-                        <Button href="#calculate" type="link">Калькулятор</Button>
-                        <Button href="#prices" type="link">Цены</Button>
-                        <Button href="#contactUs" type="link">О нас</Button>
+                        <Button href="#features" type="link">Услуги</Button>
+                        <Button href="#containers" type="link">Контейнеры</Button>
+                        <Button href="#services" type="link">Преимущества</Button>
+                        <Button href="#reviews" type="link">Отзывы</Button>
                     </div>
 
                     <div className={menu}>
-                        <Button href="/" type="link">География перевозок</Button>
-                        <Button href="#auto" type="link">Виды грузоперевозок</Button>
-                        <Button href="#calculate" type="link">Дополнительные услуги</Button>
-                        <Button href="#prices" type="link">Документы</Button>
-                        <Button href="#contactUs" type="link">Полезная информация</Button>
+                        <Button target='_blank' href="https://translogist.su/uslugi/gruzoperevozki/" type="link">
+                            География перевозок</Button>
+                        <Button target='_blank' href="https://translogist.su/uslugi/vidy-gruzoperevozok/" type="link">
+                            Виды грузоперевозок</Button>
+                        <Button target='_blank' href="https://translogist.su/uslugi/dopolnitelnyie-uslugi/" type="link">
+                            Дополнительные услуги</Button>
+                        <Button target='_blank' href="https://translogist.su/klientam/dokumentyi/" type="link">
+                            Документы</Button>
+                        <Button target='_blank' href="https://translogist.su/klientam/poleznaya-informacziya/" type="link">
+                            Полезная информация</Button>
                     </div>
 
 
-                    <div className={address}>
+                    <div className={contacts}>
                         <h4>Контакты</h4>
-                        <p>8-800-500-32-72</p>
-                        <p>info@translogist.su</p>
-                        <p>https://translogist.su</p>
+                        <Button type='text' href='tel:88005003272'>8-800-500-32-72</Button>
+                        <Button type='text' href='mailto: info@translogist.su'>info@translogist.su</Button>
+                        <Button type='link' target='_blank' href='https://translogist.su'>translogist.su</Button>
                     </div>
 
 

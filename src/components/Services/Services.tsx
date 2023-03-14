@@ -7,7 +7,7 @@ import {servicesData} from '../../infoData/servicesData'
 const {questionsBlock, title} = styles
 const Services = () => {
     return (
-        <div className='container'>
+        <div className='container' id="services">
             <div className={questionsBlock}>
                 <h2 className={title}>Главные преимущества</h2>
 

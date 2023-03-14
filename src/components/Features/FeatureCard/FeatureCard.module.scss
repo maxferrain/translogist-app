@@ -54,7 +54,7 @@
     font-size: 18px;
     color: #363e3e;
     margin-top: 20px;
-    z-index: 1000;
+    z-index: 10;
     transition: color 0.3s ease-out;
   }
 
@@ -65,7 +65,7 @@
     color: #4C5656;
     margin: 10px 8px;
     text-align: center;
-    z-index: 1000;
+    z-index: 10;
     transition: color 0.3s ease-out;
   }
 }

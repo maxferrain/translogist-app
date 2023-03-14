@@ -15,7 +15,7 @@ const Containers = () => {
 
     console.log(isAllContainersShowing, containersData)
     return (
-        <div className={containersBlock}>
+        <div className={containersBlock} id="containers">
             <h2 className={title}>Типы контейнеров</h2>
             <div className={cn('container', containers)}>
                 {isAllContainersShowing

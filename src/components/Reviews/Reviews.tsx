@@ -32,7 +32,7 @@ const {reviewsBlock, title} = styles
 
 const Reviews = () => {
     return (
-        <div className={reviewsBlock}>
+        <div className={reviewsBlock} id="reviews">
             <h2 className={title}>Отзывы клиентов</h2>
 
             <Carousel

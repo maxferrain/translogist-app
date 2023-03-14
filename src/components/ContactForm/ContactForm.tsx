@@ -1,6 +1,6 @@
 import styles from './ContactForm.module.scss'
 import React, {useCallback, useState} from 'react'
-import {Alert, Button, Checkbox, Form, Input, Select} from 'antd'
+import {Alert, Button, Checkbox, Form, Input, message, Select} from 'antd'
 import TextArea from 'antd/es/input/TextArea'
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
@@ -25,26 +25,49 @@ interface IContactForm {
 const ContactForm = () => {
 
     const [form] = Form.useForm()
-    const [isSuccessSent, setSuccessSent] = useState(false)
-    const [isFailSent, setFailSent] = useState(false)
     const [isModal, setModal] = useState(false)
 
     const toggleModal = useCallback(() => setModal(prevState => !prevState), [])
+
+    const [messageApi, contextHolder] = message.useMessage()
+
+    const key = 'updatable';
+    const openMessage = () => {
+        messageApi.open({
+            key,
+            type: 'loading',
+            content: 'Отправка формы...',
+        })
+    }
+    const success = () => {
+        messageApi.open({
+            type: 'success',
+            content: 'Спасибо, скоро с Вами свяжемся!',
+        });
+    };
+
+    const error = () => {
+        messageApi.open({
+            type: 'error',
+            content: 'Возникла ошибка при отправке формы',
+        })
+    }
     const onFinish = (values: IContactForm) => {
         values.phone = valuePhone
         console.log('Success:', values)
 
+        openMessage()
         // @ts-ignore
         send('service_xoi7yzm', 'template_ynlmsas', values, 'bAOkGC6KWuAmTjFxo')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text)
                 form.resetFields()
                 setPhoneValue('')
-                setSuccessSent(true)
+                success()
             })
             .catch((err) => {
                 console.log('FAILED...', err)
-                setFailSent(true)
+                error()
             })
 
     }
@@ -103,9 +126,7 @@ const ContactForm = () => {
                     </div>
                 </Form.Item>
 
-                {isSuccessSent && <Alert message="Спасибо, скоро с Вами свяжемся!" type="success" showIcon closable/>}
-                {isFailSent && <Alert message="Возникла ошибка при отправке формы" type="error" showIcon closable/>}
-
+                {contextHolder}
                 <Button type="primary" htmlType="submit" className={submitButton}>Отправить</Button>
             </Form>
         </>
