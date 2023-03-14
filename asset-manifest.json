@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/translogist-app/static/css/main.16fff5c3.css",
+    "main.css": "/translogist-app/static/css/main.39870854.css",
     "main.js": "/translogist-app/static/js/main.04159393.js",
     "static/js/787.96be73d3.chunk.js": "/translogist-app/static/js/787.96be73d3.chunk.js",
     "static/media/city.png": "/translogist-app/static/media/city.50b4dcdf5f95b4d01e67.png",
@@ -97,12 +97,12 @@
     "index.html": "/translogist-app/index.html",
     "static/media/protect.svg": "/translogist-app/static/media/protect.ddfa5b2e26215c05169ea5983b3da8d0.svg",
     "static/media/cancel.svg": "/translogist-app/static/media/cancel.787a3bfec85ed963c0a3e26c15017d13.svg",
-    "main.16fff5c3.css.map": "/translogist-app/static/css/main.16fff5c3.css.map",
+    "main.39870854.css.map": "/translogist-app/static/css/main.39870854.css.map",
     "main.04159393.js.map": "/translogist-app/static/js/main.04159393.js.map",
     "787.96be73d3.chunk.js.map": "/translogist-app/static/js/787.96be73d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16fff5c3.css",
+    "static/css/main.39870854.css",
     "static/js/main.04159393.js"
   ]
 }
