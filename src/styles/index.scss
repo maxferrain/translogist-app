@@ -154,3 +154,33 @@ body {
   --text-color-hover: #fff;
   --box-shadow-color: rgba(206, 178, 252, 0.48);
 }
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    width: 425px;
+  }
+}
+
+.ant-menu-submenu-title {
+  width: 90px!important;
+}
+
+.ant-menu-item-only-child {
+  padding: 0!important;
+}
